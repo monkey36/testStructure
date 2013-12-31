@@ -92,7 +92,6 @@ class Configuration:
     Generates a new configuration reached by translating the current
     configuration by the action vector.  This is a low-level call and does
     not attempt to respect the legality of the movement.
-
     Actions are movement vectors.
     """
     x, y= self.pos
